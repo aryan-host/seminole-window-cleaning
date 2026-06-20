@@ -35,7 +35,7 @@ export async function submitContact(
       // in the Resend dashboard, switch this to:
       // 'Seminole Window & Exterior Cleaning <contact@seminolewindowcleaning.com>'
       from: 'Seminole Window & Exterior Cleaning <onboarding@resend.dev>',
-      to: 'contact@seminolewindowcleaning.com',
+      to: 'aryanjsmail@gmail.com',
       replyTo: email,
       subject: `New estimate request from ${name}`,
       text: [
