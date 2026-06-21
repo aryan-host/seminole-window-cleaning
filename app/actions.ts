@@ -30,12 +30,8 @@ export async function submitContact(
 
   try {
     await resend.emails.send({
-      // While your domain is unverified in Resend, this sandbox sender is the
-      // only one that will work. Once seminolewindowcleaning.com is verified
-      // in the Resend dashboard, switch this to:
-      // 'Seminole Window & Exterior Cleaning <contact@seminolewindowcleaning.com>'
-      from: 'Seminole Window & Exterior Cleaning <onboarding@resend.dev>',
-      to: 'aryanjsmail@gmail.com',
+      from: 'Seminole Window & Exterior Cleaning <contact@seminolewindowcleaning.com>',
+      to: 'contact@seminolewindowcleaning.com',
       replyTo: email,
       subject: `New estimate request from ${name}`,
       text: [
