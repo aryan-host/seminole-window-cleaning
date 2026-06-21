@@ -24,6 +24,11 @@ function StructuredData() {
       addressLocality: 'Sanford',
       addressCountry: 'US',
     },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 28.8005,
+      longitude: -81.2731,
+    },
     makesOffer: services.map((s) => ({
       '@type': 'Offer',
       itemOffered: { '@type': 'Service', name: s.title, description: s.description },
