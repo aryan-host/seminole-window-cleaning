@@ -7,6 +7,7 @@ const archivo = Archivo({
   subsets: ['latin'],
   weight: ['600', '700', '800', '900'],
 })
+
 const sourceSans = Source_Sans_3({
   variable: '--font-source-sans',
   subsets: ['latin'],
@@ -43,6 +44,9 @@ export const metadata: Metadata = {
     siteName: 'Seminole Window & Exterior Cleaning',
   },
   robots: { index: true, follow: true },
+  verification: {
+    google: 'kByHHp2fybVbhx76MxJStRIado_gNcgUD6Y6axsFR5c',
+  },
 }
 
 export const viewport: Viewport = {
